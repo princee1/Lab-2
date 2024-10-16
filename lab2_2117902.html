@@ -7553,6 +7553,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a href="https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FCSV%20Files">https://unsw-my.sharepoint.com/personal/z5025758_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5025758%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FUNSW%2DNB15%20dataset%2FCSV%20Files</a></p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -10980,7 +10991,7 @@ The shape of Testing Set is: (82332, 41)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In this case, when we keeped the correlated value without moving the value to the 30 PCA space, my model did better in most case than the model from scikit learn. For the Decision Tree algorithm my model had was doing a bit better than the one from ScikitLearn after we train both model on the x_train and x_val dataset and found the best model model for the X_test dataset. For the KNN, we found that both model were doing approximately the same, but mine did better. So for both algothim we will comparing both of my model over other metrics to find the best</p>
+<p>In this scenario, retaining the correlated features, rather than reducing the data to a 30-dimensional PCA space, resulted in my model generally outperforming the Scikit-learn implementation. For the Decision Tree algorithm, after training on the X_train and X_val datasets and selecting the optimal model for the X_test dataset, my model showed slightly better performance. Similarly, for the KNN algorithm, both models performed similarly, with mine achieving a slight edge. Moving forward, we will compare my models across additional metrics to identify the most effective one.</p>
 </div>
 </div>
 </div>
@@ -11236,7 +11247,7 @@ F-score: 75.90128 %
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In the above graphics we see that when we removed the highly correlated feature Scikit Learn were able to have better prediction meaning than for less features it were able to predict faster and more efficiently. However, globaly  the mean accuracy of all scenario is better for my model than for Scikit's. Mine (78% accuracy), Scikit (76%). We could chose to remove higly correlated feature and keep the scikit model for comparison but overall mine are sliigthly better and because, well, i did myself. Mainly because it was easy to compute other metrics</p>
+<p>In the graphics above, we observe that when the highly correlated features were removed, the Scikit-learn model demonstrated better predictions, suggesting it performed faster and more efficiently with fewer features. However, overall, the mean accuracy across all scenarios was higher for my model compared to Scikit-learn’s, with mine achieving 78% accuracy versus Scikit's 76%. While we could choose to remove the highly correlated features and retain the Scikit model for comparison, my model remains slightly better overall—and I prefer it, as it allowed for easier computation of additional metrics.</p>
 </div>
 </div>
 </div>
@@ -11247,7 +11258,7 @@ F-score: 75.90128 %
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We then decided that the KNN model was the best because it has better precision and Fscore as well. More details on the report!</p>
+<p>We ultimately concluded that the KNN model was the most effective due to its superior precision and F-score. For further details, please refer to the report!</p>
 </div>
 </div>
 </div>
